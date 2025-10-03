@@ -1,5 +1,32 @@
 /* نخلي البودي هو الحاوية الرئيسية */
 body {
+    background: #fafafa; /* خلفية فاتحة للصفحة */
+  font-family: Arial, sans-serif; /* خط بسيط */
+}
+
+header {
+  background: #444;
+  color: #fff;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+}
+
+.logo {
+  font-size: 2em;   /* نخلي اللوجو كبير */
+  margin-right: 15px;
+  color: gold;      /* اللوجو باللون الدهبي */
+}
+
+article {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  line-height: 1.6;
+}
   display: flex;            /* نستخدم نظام Flexbox */
   flex-direction: column;   /* العناصر تيجي تحت بعض (عمودياً) */
   margin: 0;                /* نشيل أي مسافات افتراضية من المتصفح */
@@ -15,6 +42,7 @@ main {
 
 /* الجزء الأساسي (المحتوى الرئيسي) */
 article {
+    
   flex: 2;                  /* ياخد ضعف مساحة aside */
   overflow-y: auto;         /* لو المحتوى طويل يبان scroll */
   padding: 10px;            /* مسافة صغيرة جوه العنصر */
