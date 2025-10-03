@@ -1,0 +1,38 @@
+/* نخلي البودي هو الحاوية الرئيسية */
+body {
+  display: flex;            /* نستخدم نظام Flexbox */
+  flex-direction: column;   /* العناصر تيجي تحت بعض (عمودياً) */
+  margin: 0;                /* نشيل أي مسافات افتراضية من المتصفح */
+  height: 100vh;            /* نخلي البودي ياخد طول الشاشة كله */
+}
+
+/* نخلي المين هو الحاوية اللي فيها article و aside */
+main {
+  display: flex;            /* برضو نستخدم Flexbox */
+  flex-direction: row;      /* العناصر تبقى جنب بعض (أفقي) */
+  flex: auto;               /* يخلي main يتمدد وياخد المساحة المتاحة */
+}
+
+/* الجزء الأساسي (المحتوى الرئيسي) */
+article {
+  flex: 2;                  /* ياخد ضعف مساحة aside */
+  overflow-y: auto;         /* لو المحتوى طويل يبان scroll */
+  padding: 10px;            /* مسافة صغيرة جوه العنصر */
+  background: #f2f2f2;      /* لون فاتح كده للوضوح */
+}
+
+/* الشريط الجانبي */
+aside {
+  flex: 1;                  /* ياخد مساحة أقل */
+  overflow-y: auto;         /* يبان scroll لو المحتوى طويل */
+  padding: 10px;            /* مسافة صغيرة جوه العنصر */
+  background: #ddd;         /* لون أغمق بسيط علشان يبان الفرق */
+}
+
+/* الهيدر والفوتر */
+header, footer {
+  background: #333;         /* لون غامق */
+  color: white;             /* لون الخط أبيض */
+  padding: 15px;
+  text-align: center;
+}
