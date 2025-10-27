@@ -10,7 +10,7 @@ It focuses on **styling the webpage using CSS** based on the Figma design provid
 - Match the provided Figma design as closely as possible.
 
 ## 🧠 Resources
-- [Figma Design](https://www.figma.com/file/XXXXXX)  
+- [Figma Design](https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&t=ksuDNJSP48tZ8DF6-1)  
   *(replace this with your own figma link if available)*
 
 ## 🖼️ Preview
